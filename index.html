@@ -4,99 +4,36 @@
 
     <meta charset="UTF-8">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>行走台南</title>
     <link rel="icon" href="./logo.png">
-    
-    <style>
-      body,html{
-        height: 100%;
-        margin: 0;
-      }
-      #back{
-        background-image:url('app/choosepage/choose_page_background.png');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        height:100%;
-        text-align: center;
-      }
-      #top_line{
-        background-image: url('app/index_line.png');
-        background-size:cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 14vw;
-      }
-      #dot_space{
-        width: 20%;
-        height: 2vw;
-        margin: auto;
-        margin-top: 2vw;
-        margin-bottom: 2vw;
-        text-align: center;
-      }
-      #space{
-        width: 100%;
-        height: 88vw;
-        margin: auto;
-        margin-top: 7vw;
-        margin-bottom: 7vw;
-        text-align: center;
-      }
-      .dot{
-        width: 10%;
-        height: auto;
-        margin-left: 0.5vw;
-        margin-right: 0.5vw;
-      }
-      #bottom_line{
-        background-image: url('app/option_line.png');
-        background-size:cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 11vw;
-        text-align: center;
-        position: fixed;
-        bottom: 0;
-      }
-      .bottom{
-        width: 8%;
-        height: auto;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: 0.8vw;
-      }
-    </style>
+
+    <link rel="stylesheet" type="text/css" href="play.css"> 
+    <link rel="stylesheet" type="text/css" href="mission.css"> 
+
+    <link rel="stylesheet" type="text/css" href="setting.css"> 
+    <link rel="stylesheet" type="text/css" href="choosepage.css"> 
+
+    <script src='choosepage.js'></script>
   </head>
   <body>
-    <div id='back'>
-      <div id='top_line'>
-        <img src='./app/previous.png' style='width:4%; height:auto; margin-left:6vw;margin-top:3vw;float:left;'>
-        <img src='./app/setting_icon.png' style='width:7%; height:auto; margin-right:6vw;margin-top:2.5vw;float:right;'>
-      </div>
-      <div id='dot_space'>
-        <img class='dot' id='dot_1' src='app/page_dot.png'>
-        <img class='dot' id='dot_2' src='app/page_circle.png'>
-        <img class='dot' id='dot_3' src='app/page_circle.png'>
-        <img class='dot' id='dot_4' src='app/page_circle.png'>
-        <img class='dot' id='dot_5' src='app/page_circle.png'>
-      </div>
-      <div id='space'>
-        <img src='app/choosepage/AN_PING_button.png' style="width: 50%;height: auto;">
-        <img src='app/choosepage/choose_page_logo.png' style="width: 10%;height: auto;position: absolute;top: 87vw;left: 45vw;">
-      </div>
-      <img src='app/choosepage/ok_button.png' style="width:62%;height: auto;">
-      <div id='bottom_line'>
-        <img src='app/mission_buttom.png' class='bottom'>
-        <img src='app/story_button.png' class='bottom'>
-        <img src='app/photo_icon.png' class='bottom'>
-        <img src='app/friend_button.png' class='bottom'>
-        <img src='app/share_button.png' class='bottom'>
-      </div>
+    <div id='back_setting'>
+        <div id='top_line'>
+            <img src='./app/previous.png'id='previous' style='width:4%; height:auto; margin-left:6vw;margin-top:3vw;float:left;'>
+            <img src='./app/setting_icon.png'id='setting' style='width:7%; height:auto; margin-right:6vw;margin-top:2.5vw;float:right;'>
+        </div>
+        <div id='dot_space'>
+            <img class='dot' id='dot_1' src='app/page_dot.png'>
+            <img class='dot' id='dot_2' src='app/page_circle.png'>
+            <img class='dot' id='dot_3' src='app/page_circle.png'>
+            <img class='dot' id='dot_4' src='app/page_circle.png'>
+            <img class='dot' id='dot_5' src='app/page_circle.png'>
+        </div>
+        <div id='space'>
+            <img src='app/choosepage/AN_PING_buttom.png' style="width: 50%;height: auto;">
+            <img src='app/choosepage/choose_page_logo.png' style="width: 10%;height: auto;position: absolute;top: 87vw;left: 45vw;">
+        </div>
+        <img src='app/choosepage/ok_buttom.png' id='ok_buttom_setting' style="width:62%;height: auto;">
     </div>
-    
+    <script ></script>
   </body>
 </html>

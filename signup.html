@@ -39,8 +39,29 @@
         margin-top: 5vw;
         text-align: left;
       }
-      .login_button{
-        background-image: url('app/loginpage/signup/login_signup_button.png');
+      .input{
+        border: none;
+        width: 66%;
+        height: 8vw;
+        margin-top: -1vw;
+        margin-left: 5vw;
+        background-color: rgba(171,221,161,0);
+        font-size: 3.8vw;
+      }
+      #google_buttom{
+        background-image: url('./app/loginpage/signup/google_icon.png');
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width:6%;
+        height: 6vw;
+        margin:auto;
+        margin-top: 2vw;
+        background-color: rgba(0%, 0%, 100%, 0);
+        border: none;
+      }
+      #login_buttom{
+        background-image: url('app/loginpage/signup/login_signup_buttom.png');
         background-size:cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -48,6 +69,8 @@
         height: 10vw;
         margin:auto;
         margin-top: 5vw;
+        background-color: rgba(0%, 0%, 100%, 0);
+        border: none;
       }
     </style>
   </head>
@@ -61,24 +84,24 @@
 
         <div class='input_box'>
           <img src='./app/loginpage/signup/name_icon.png' style='width: auto;height: 6vw;margin-top: 2.5vw;margin-left: 5.5vw;float: left;'><br>
-          <input name="name" type="text" value="NAME">
+          <input name="name" type="text" value="NAME" class="input">
         </div>
         
         <div class='input_box'>
           <img src='./app/loginpage/signup/email_icon.png' style='width: auto;height: 5vw;margin-top: 3vw;margin-left: 5vw;float: left;'><br>
-          <input name="password" type="text" value="EMAIL">
+          <input name="password" type="text" value="EMAIL" class="input">
         </div>
 
         <div class='input_box'>
           <img src='./app/loginpage/signup/password_icon.png' style='width: auto;height: 7vw;margin-top: 2vw;margin-left: 6vw;float: left;'><br>
-          <input name="password" type="text" value="PASSWORD">
+          <input name="password" type="text" value="PASSWORD" class="input">
         </div>
         
         <img src='./app/loginpage/signup/OR_LOGIN_WITH_GOOGLE.png' style='width:70%; height:auto; margin:auto;margin-top: 15vw;'><br>
-        <img src='./app/loginpage/signup/google_icon.png' style='width:6%; height:auto; margin:auto;margin-top: 2vw;'>
-        <div class='login_button'>
-          <button type="submit"></button>
-        </div>
+        <buttom type="submit" id='google_buttom'></buttom><br>
+
+        <buttom type="submit" id='login_buttom'></buttom>
+
       </form>
     </div>
   </body>

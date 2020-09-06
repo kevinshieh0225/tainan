@@ -1,0 +1,220 @@
+  /*mission*/
+    mission{
+        width: 100vw;
+        height: 107vw;
+        left: 0%;
+        top: 6vw;
+        position: relative;
+        padding: 5px;
+        overflow: scroll;
+        display:none;
+    }
+	/*mission頁面一*/
+	.mission_anping_page1{
+        display:inline-block;
+    }
+    #mission_info{
+    width: 82vw;
+    height: 17vw;
+    margin-left: 3vw;
+    margin-right: 0vw;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+    }
+   /*mission景點一*/
+    #mission_info_picture1{
+	width: 17vw;
+    height: 17vw;
+    margin-left: 3vw;
+    margin-right: 0vw;
+    margin-top: 4vw;
+    margin-bottom: 0vw;
+	
+  }
+    #mission_intro_frame1{
+	width: 60vw;
+    height: 17vw;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    margin-top: 4vw;
+    margin-bottom: 0vw;
+	
+  }
+    #detail_info_bottom1{
+	width: 5vw;
+    height: 17vw;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    margin-top: 4vw;
+    margin-bottom: 0vw;
+	
+  }
+     /*mission景點2*/
+    #mission_info_picture2{
+	width: 17vw;
+    height: 17vw;
+    margin-left: 3vw;
+    margin-right: 0vw;
+    margin-top: 4vw;
+    margin-bottom: 0vw;
+	
+  }
+    #mission_intro_frame2{
+	width: 60vw;
+    height: 17vw;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    margin-top: 4vw;
+    margin-bottom: 0vw;
+	
+  }
+    #detail_info_bottom2{
+	width: 5vw;
+    height: 17vw;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    margin-top: 4vw;
+    margin-bottom: 0vw;
+	
+  }
+       /*mission景點3*/
+    #mission_info_picture3{
+	width: 17vw;
+    height: 17vw;
+    margin-left: 3vw;
+    margin-right: 0vw;
+    margin-top: 4vw;
+    margin-bottom: 0vw;
+	
+  }
+    #mission_intro_frame3{
+	width: 60vw;
+    height: 17vw;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    margin-top: 4vw;
+    margin-bottom: 0vw;
+	
+  }
+    #detail_info_bottom3{
+	width: 5vw;
+    height: 17vw;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    margin-top: 4vw;
+    margin-bottom: 0vw;
+	
+  }
+       /*mission景點4*/
+    #mission_info_picture4{
+	width: 17vw;
+    height: 17vw;
+    margin-left: 3vw;
+    margin-right: 0vw;
+    margin-top: 4vw;
+    margin-bottom: 0vw;
+	
+  }
+    #mission_intro_frame4{
+	width: 60vw;
+    height: 17vw;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    margin-top: 4vw;
+    margin-bottom: 0vw;
+	
+  }
+    #detail_info_bottom4{
+	width: 5vw;
+    height: 17vw;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    margin-top: 4vw;
+    margin-bottom: 0vw;
+	
+  }
+       /*mission景點5*/
+    #mission_info_picture5{
+	width: 17vw;
+    height: 17vw;
+    margin-left: 3vw;
+    margin-right: 0vw;
+    margin-top: 4vw;
+    margin-bottom: 0vw;
+	
+  }
+    #mission_intro_frame5{
+	width: 60vw;
+    height: 17vw;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    margin-top: 4vw;
+    margin-bottom: 0vw;
+	
+  }
+    #detail_info_bottom5{
+	width: 5vw;
+    height: 17vw;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    margin-top: 4vw;
+    margin-bottom: 0vw;
+	
+  }
+/*mission頁面二*/
+	.mission_anping_page2{
+	  display:none;
+  }
+    #mission_assign{
+        width: 17vw;
+        height: auto;
+        margin-left: 70vw;
+        margin-right: 0vw;
+        margin-top: -4vw;
+        margin-bottom: 0vw;
+  }
+    #upload_buttom{
+	width: 45vw;
+    height: auto;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    margin-top: 10vw;
+	
+  }
+    /*mission頁面二任務照片*/
+    #picture_anping{
+	    width: 58vw;
+    height: auto;
+    margin-left: 3vw;
+    margin-right: 0vw;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+  }
+ 
+  /*mission頁面三*/
+	.mission_anping_page3{
+	  display:none;
+  } 
+    #picture_anping1_2{
+	width: 55vw;
+    height: auto;
+    margin-left: 5vw;
+    margin-right: 0vw;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+	
+  }
+    #choose_buttom1{
+	width:25vw;
+    height: 10vw;
+    margin-left: 5vw;
+    margin-right: 0vw;
+	margin-top: 15vw;
+  }
+    #choose_buttom2{
+	width: 25vw;
+    height: 10vw;
+    margin-left: 15vw;
+    margin-right: 0vw;
+	
+  }

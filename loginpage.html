@@ -2,7 +2,7 @@
 <html>
   <head>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="main.js"></script>
     <title>行走台南</title>
     <link rel="icon" href="./logo.png">
     <meta charset="UTF-8">
@@ -12,69 +12,34 @@
         margin: 0;
       }
       #back{
-        background-image:url('app/loginpage/signup/sign_up_background');
+        background-image:url('app/loginpage/login/login_background');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         height:100%;
-        text-align: center;
       }
-      #log_in_line{
-        background-image: url('app/loginpage/signup/log_in_line.png');
-        background-size:cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 10vw;
-        text-align: left;
-      }
-      .input_box{
-        background-image: url('app/loginpage/signup/sign_up_frame.png');
-        background-size:cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 65%;
-        height: 11vw;
-        margin:auto;
-        margin-top: 10vw;
-        text-align: left;
-      }
-      .login_button{
-        background-image: url('app/loginpage/signup/login_signup_button.png');
-        background-size:cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 61%;
-        height: 10vw;
-        margin:auto;
-        margin-top: 5vw;
-      }
+
     </style>
   </head>
   <body>
-    <div id='back'>
-      <div id='log_in_line'>
-        <img src='./app/previous.png' style='width:4%; height:auto; margin-left:10vw;margin-top:1.5vw;'>
-      </div>
-      <img src='./app/LOGO-01.png' style='width:25%; height:auto; margin:auto;margin-top: 10vw;margin-bottom: 5vw;'>
-      <form action="/post_data" method="post">
 
-        <div class='input_box'>
-          <img src='./app/loginpage/signup/name_icon.png' style='width: auto;height: 6vw;margin-top: 2.5vw;margin-left: 5vw;float: left;'><br>
-          <input name="name" type="text" value="NAME">
-        </div>
-        
-        <div class='input_box'>
-          <img src='./app/loginpage/signup/password_icon.png' style='width: auto;height: 6vw;margin-top: 2.5vw;margin-left: 5vw;float: left;'><br>
-          <input name="password" type="text" value="PASSWORD">
-        </div>
-        
-        <img src='./app/loginpage/signup/OR_LOGIN_WITH_GOOGLE.png' style='width:5%; height:auto;'><br>
-        <img src='./app/loginpage/signup/google_icon.png' style='width:6%; height:auto; margin:auto;margin-top: 2vw;'>
-        <div class='login_button'>
-          <button type="submit"></button>
-        </div>
-      </form>
-    </div>
+    <div id='back'>
+      <img src='app/LOGO-01.png'style="width: 26%;height: auto;top: 11%;position: absolute;left: 37%;">
+      <img src='app/loginpage/login/EXPLORE.png' style="width: 68%;height: auto;top: 75%;position: absolute;left: 16%;display:none;">
+      <img src='app/loginpage/login/login_buttom.png' style="width:36%;height:auto;top:80%;position: absolute;left: 9%">
+      <img src='app/loginpage/login/sign_up_buttom.png' style="width:36%;height:auto;top:80%;position: absolute;right: 9%">
+      <img id='intro_text_1' src='app/loginpage/login/intro_text_1.png' style="width: 42%;height: auto;position: absolute;top: 72%;left: 29%;">
+      <img id='intro_text_2' src='app/loginpage/login/intro_text_2.png' style="width: 49%;height: auto;position: absolute;top: 72%;left: 26%;display:none;">
+      <img id='intro_text_3' src='app/loginpage/login/intro_text_3.png' style="    width: 60%;height: auto;position: absolute;top: 72%;left: 20%;display:none;">
+      
+      <img id='dot_1' src='app/page_dot.png' style="width: 2.2%;height: auto;position: absolute;top: 75%;left: 44%;">
+      <img id='dot_2' src='app/page_dot.png' style="width: 2.2%;height: auto;position: absolute;top: 75%;left: 50%;display:none;">
+      <img id='dot_3' src='app/page_dot.png' style="width: 2.2%;height: auto;position: absolute;top: 75%;left: 56%;display:none;">
+      <img id='circle_1' src='app/page_circle.png' style="width: 2.2%;height: auto;position: absolute;top: 75%;left: 44%;display:none;">
+      <img id='circle_2' src='app/page_circle.png' style="width: 2.2%;height: auto;position: absolute;top: 75%;left: 50%;">
+      <img id='circle_3' src='app/page_circle.png' style="width: 2.2%;height: auto;position: absolute;top: 75%;left: 56%;">
+
+    </div>>
+  
   </body>
 </html>
