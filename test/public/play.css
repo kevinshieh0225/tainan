@@ -1,0 +1,175 @@
+body,html{
+    height: 100%;
+    margin: 0;
+  }
+  #back{
+    background-image:url('pic/choosepage/choose_page_background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100%;
+    text-align: center;
+  }
+  #top_line{
+    background-image: url('pic/index_line.png');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 14vw;
+  }
+
+  #google_map{
+    /* background-image: url('pic/index_line.png'); */
+    /* background-color: #000000; */
+    /* background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    width: 100%;
+    height: 86.5vh;
+    /* z-index: 3; */
+  }
+  
+/*story+mission+friend*/
+  #story_background{
+    background-color: #71aa63;
+    width: 100vw;
+    height: 120vw;
+    position: fixed;
+    bottom: 12vw;
+    display:none;
+  }
+  #story_back_buttom {
+    background-image: url(pic/delete_buttom.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 5%;
+    height: 5vw;
+    left: 5vw;
+    top: 4vw;
+    position: relative;
+  }
+/*story+mission*/
+  #story_anping_buttom{
+    background-image: url(pic/AnPingline_buttom_enter.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 26%;
+    height: 8vw;
+    right: 38.4vw;
+    top: -8vw;
+    position: absolute;
+  }
+  #story_chihkan_buttom{
+    background-image: url(pic/Chihkan_line_buttom.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 26%;
+    height: 8vw;
+    right: 16.6vw;
+    top: -8vw;
+    position: absolute;
+  }
+  #story_confucius_buttom {
+    background-image: url(pic/Confuciusline_buttom.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 21vw;
+    height: 7.95vw;
+    right: 0vw;
+    top: -8vw;
+    position: absolute;
+  }
+
+/*story的景點選擇*/
+  story{
+    display:none;
+    width: 100vw;
+    height: 92%;
+    position: absolute;
+    bottom:0;
+    left:0;
+  }
+  
+  .story_picture_buttom{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 21vw;
+    height: auto;
+  }
+  #story_picture1_buttom {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 11vw;
+    margin-bottom: 2vw;
+  }
+  #story_picture2_buttom {
+    margin-left: 3vw;
+    margin-right: 3.4vw;
+    margin-top: 10vw;
+    margin-bottom: 4vw;
+  }
+  #story_picture3_buttom {
+    margin-left: 3vw;
+    margin-right: 4vw;
+    margin-top: 10vw;
+    margin-bottom: 4vw;
+  }
+  #story_picture4_buttom {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+  #story_picture5_buttom {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+  #lock_story {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+  }
+  #introduction {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 78%;
+    height: auto;
+    margin-top: 8vw;
+  }
+/*story*/
+  #distance{
+    width: 34%;
+    height: 17vw;
+    margin: auto;
+    text-align: center;
+    position: fixed;
+    bottom: 11vw;
+    left: 33%;
+  }
+  #bottom_line{
+    background-image: url('pic/option_line.png');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 12vw;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+  }
+  .bottom{
+    width: 13vw;
+    height: auto;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }

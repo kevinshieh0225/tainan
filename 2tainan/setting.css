@@ -1,0 +1,142 @@
+  #back_setting{
+    background-image:url('pic/setting/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100%;
+    text-align: center;
+  }
+  #top_line_setting{
+    background-image: url('pic/setting/setting_line.png');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 12vw;
+    margin-top:-12vw;
+  }
+  /*setting*/
+  .setting{
+    display: none;
+  }
+  #setting_background{
+    width: 100%;
+    height: 160vw;
+    text-align: center;
+  }
+  #photo_frame{
+    background-image: url(pic/setting/photo_frame.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 32vw;
+    height: 32vw;
+    margin: auto;
+    position: relative;
+    margin-top: 16vw;
+    margin-bottom: 8vw;
+  }
+  #photo_change_buttom{
+    background-image: url(pic/setting/photo_change_buttom.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 52%;
+    height: 26%;
+    position: absolute;
+    margin: auto;
+    top: 74%;
+    left: 24%;
+    opacity: 0.6;
+  }
+  .font{
+    width: 18vw;
+    height: 4vw;
+    text-align: center;
+    margin: auto;
+  }
+  #music_font{
+    background-image: url(pic/setting/music_font.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 8vw;
+    height: 3.6vw;
+    float: left;
+    margin-right: 1vw;
+  }
+  #sound_font{
+    background-image: url(pic/setting/sound_font.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 8vw;
+    height: 3.6vw;
+    float: left;
+    margin-right: 1vw;
+  }
+  #Adjustment_frame1{
+    background-image: url(pic/setting/Adjustment_frame.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 9vw;
+    height: 3.6vw;
+    float: left;
+  }
+  #Adjustment_frame2{
+    background-image: url(pic/setting/Adjustment_frame.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 9vw;
+    height: 3.6vw;
+    float: left;
+  }
+  #open1{
+    background-image: url(pic/setting/open.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 3.6vw;
+    height: 3.6vw;
+    opacity: 0.5;
+    margin-left:0;
+  }
+  #open2{
+    background-image: url(pic/setting/open.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 3.6vw;
+    height: 3.6vw;
+    opacity: 0.5;
+    margin-left:0;
+  }
+
+  #ok_buttom{
+    background-image: url(pic/setting/ok_buttom.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 42%;
+    height: 10vw;
+    text-align: center;
+    background-color: rgba(0,0,0,0);
+    border:none;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+  #signout_buttom{
+    background-image: url(pic/setting/signout_buttom.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 42%;
+    height: 10vw;
+    text-align: center;
+    background-color: rgba(0,0,0,0);
+    border:none;
+  }

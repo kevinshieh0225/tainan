@@ -1,0 +1,203 @@
+/*story的景點選擇*/
+story{
+    display:none;
+    width: 100vw;
+    height: 92%;
+    position: absolute;
+    bottom:0;
+    left:0;
+  }
+  
+  .story_picture_buttom{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 21vw;
+    height: auto;
+  }
+
+/*anping*/
+  #story_anping_picture1_buttom {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 11vw;
+    margin-bottom: 2vw;
+  }
+  #story_anping_picture2_buttom {
+    margin-left: 3vw;
+  margin-right: 3.4vw;
+  margin-top: 10vw;
+  margin-bottom: 3.8vw;
+  }
+  #story_anping_picture3_buttom {
+    margin-left: 3vw;
+    margin-right: 4vw;
+    margin-top: 11vw;
+    margin-bottom: 4.5vw;
+  }
+  #story_anping_picture4_buttom {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+  #story_anping_picture5_buttom {
+    margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 2vw;
+  margin-bottom: 2.6vw;
+  }
+  #anping_lock_story {
+    margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 2vw;
+  margin-bottom: 5.7vw;
+  }
+  #introduction_anping{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 78%;
+    height: auto;
+    margin-top: 8vw;
+  }
+/*anping*/
+
+/*chihkan*/
+#story_chihkan_picture1_buttom {
+  margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 11vw;
+    margin-bottom: 4vw;
+}
+#story_chihkan_picture2_buttom {
+  margin-left: 3vw;
+  margin-right: 3.4vw;
+  margin-top: 11vw;
+  margin-bottom: 4vw;
+}
+#story_chihkan_picture3_buttom {
+  margin-left: 3vw;
+    margin-right: 4vw;
+    margin-top: 11vw;
+    margin-bottom: 4vw;
+}
+#story_chihkan_picture4_buttom {
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 1.8vw;
+  margin-bottom: 2vw;
+}
+#story_chihkan_picture5_buttom {
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 2vw;
+  margin-bottom: 4.3vw;
+}
+#chihkan_lock_story {
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 2vw;
+  margin-bottom: 7.5vw;
+}
+#introduction_chihkan{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 78%;
+  height: auto;
+  margin-top: 6vw;
+}
+/*chihkan*/
+
+/*confucious*/
+#story_confucious_picture1_buttom {
+  margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 11vw;
+    margin-bottom: 4vw;
+}
+#story_confucious_picture2_buttom {
+  margin-left: 3vw;
+  margin-right: 3.4vw;
+  margin-top: 11vw;
+  margin-bottom: 4vw;
+}
+#story_confucious_picture3_buttom {
+  margin-left: 3vw;
+    margin-right: 4vw;
+    margin-top: 11vw;
+    margin-bottom: 4vw;
+}
+#story_confucious_picture4_buttom {
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 1.8vw;
+  margin-bottom: 4.2vw;
+}
+#story_confucious_picture5_buttom {
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 2vw;
+  margin-bottom: 4.3vw;
+}
+#confucious_lock_story {
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 2vw;
+  margin-bottom: 8vw;
+}
+#introduction_confucious{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 78%;
+  height: auto;
+  margin-top: 6vw;
+}
+/*confucious*/
+
+
+/*story*/
+#story_page2{
+    overflow: scroll;
+    height: 110vw;
+}
+#story_display{
+    width: 50vw;
+    height: auto;
+    margin-left: 1vw;
+}
+#story_display_title{
+    width: 80vw;
+    margin: auto;
+    color: white;
+    font-family: Microsoft JhengHei;
+    margin-top: 8vw;
+    margin-bottom: 3vw;
+}
+#story_display_article_1{
+    width: 73vw;
+    margin: auto;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: Microsoft JhengHei;
+    text-align: left;
+    color: #abe5a1;
+}
+#story_choose{
+    width: 70vw;
+    height: auto;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+#story_display_article_2{
+    width: 73vw;
+    margin: auto;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: Microsoft JhengHei;
+    text-align: left;
+    color: #abe5a1;
+    margin-bottom: 10vw;
+}

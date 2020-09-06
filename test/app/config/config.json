@@ -1,0 +1,36 @@
+{
+  "development": {
+    "username": "uidd2018_groupJ",
+    "password": "uidd2018Jgroup",
+    "database": "uidd2018_groupJ",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+     
+    "username": "",
+             
+    "password": null,
+                     
+    "database": "",
+                             
+    "host": "",
+                                     
+    "dialect": "mysql"
+                                   
+  },
+                                                 
+  "production": {
+                                                      
+    "username": "",
+                                                               
+    "password": null,
+                                                                      
+    "database": "",
+                                                                               
+    "host": "127.0.0.1",
+                                                                                       
+    "dialect": "mysql"
+                                                                                             
+  }
+}

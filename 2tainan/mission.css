@@ -1,0 +1,204 @@
+  /*mission*/
+    mission{
+      width: 100vw;
+      height: 110vw;
+      left: 0%;
+      bottom: 0px;
+      position: absolute;
+      overflow: scroll;
+      z-index: 1;
+    }
+	/*mission頁面一*/
+	  .mission_anping_page1{
+        display:inline-block;
+    }
+    .mission_chihkan_page1{
+      display:inline-block;
+    }
+    .mission_confucious_page1{
+      display:inline-block;
+    }
+    .mission_info{
+      width: auto;
+      height: 20vw;
+      margin-left: -1vw;
+      margin-right: 0vw;
+      margin-top: 5vw;
+      margin-bottom: 0vw;
+    }
+   
+  .mission_browse_picture{
+    width: auto;
+    height: 19vw;
+    margin-left: 3vw;
+    margin-right: 0vw;
+    margin-top: 4vw;
+    margin-bottom: 0vw;
+	
+  }
+  .mission_intro_frame{
+    width: auto;
+    height: 19vw;
+    margin-left: -1vw;
+    margin-right: 0vw;
+    margin-top: 4vw;
+    margin-bottom: 0vw;
+  }
+  /*mission景點一*/
+  .detail_info_bottom{
+    width: auto;
+    height: 19vw;
+    margin-left: -1vw;
+    margin-right: 0vw;
+    margin-top: 4vw;
+    margin-bottom: 0vw;
+  }
+
+
+/*mission頁面二*/
+	.mission_page2{
+	  display:inline-block;
+  }
+  .mission_page2_intro{
+    width: 100vw;
+    height: 110vw;
+    position: absolute;
+    bottom:0;
+  }
+  #mission_assign{
+    width: 22vw;
+    height: auto;
+    margin-left: 70vw;
+    margin-right: 0vw;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+  }
+  #finish_mission_buttom,#upload_buttom{
+    width: 39vw;
+    height: auto;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 3vw;
+  }
+  #mission_page2_choice{
+    width: 20vw;
+    height: 6vw;
+    position: fixed;
+    background-image: url(pic/CHOOSE_DOT.png);
+    background-size: cover;
+    left: 40vw;
+    bottom: 15vw;
+  }
+  #mission_page2_dot{
+    width: 2.4vw;
+    height: auto;
+    position: absolute;
+    left: 42.6vw;
+    bottom: 4.5vw;
+  }
+    /*mission頁面二任務照片*/
+  #mission_picture{
+	  width: 90vw;
+    height: auto;
+    margin-right: 0vw;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+  }
+  /*頁面二文字*/
+  .mission_page2_title{
+    width: 87vw;
+    color: white;
+    font-family: Microsoft JhengHei;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 1vw;
+  }
+  #mission_page2_word{
+    width: 87vw;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: Microsoft JhengHei;
+    text-align: left;
+    color: #abe5a1;
+    margin-top: 3px;
+    margin: auto;
+  }
+/*mission頁面二任務介紹照片*/
+#mission_page2_intro_picture1,#mission_page2_intro_picture2,#mission_page2_intro_picture3{
+  width: 90vw;
+  height: auto;
+  margin-right: 0vw;
+  margin-top: 4.8vw;
+  margin-bottom: 3vw;
+}
+  /*頁面二介紹文字*/
+#mission_page2_intro_word1,#mission_page2_intro_word2,#mission_page2_intro_word3{
+  width: 87vw;
+  height: 36vw;
+  font-size: 13px;
+  line-height: 20px;
+  font-family: Microsoft JhengHei;
+  text-align: left;
+  color: #abe5a1;
+  margin-top: 3px;
+  margin: auto;
+}
+
+
+
+
+  /*mission頁面三*/
+	.mission_page3{
+	  display:none;
+  } 
+  .mission_page4{
+    display:none;
+  }
+  .mission_page5{
+    display: none;
+  }
+  #mission_page3_picture{
+    width: 40vw;
+    height: auto;
+    margin-right: 0vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+  #mission_page4_picture{
+    width: 50vw;
+    height: auto;
+    margin-right: 0vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+  #mission_page3_title,#mission_page3_choose,.mission_page5_font{
+    width: 75vw;
+    color: white;
+    font-family: Microsoft JhengHei;
+    line-height: 23px;
+    margin: auto;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+  #mission_page3_word,#mission_page4_word{
+    width: 67.5vw;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: Microsoft JhengHei;
+    text-align: left;
+    color: #abe5a1;
+    margin-top: 3px;
+    margin: auto;
+  }
+  #mission_choose_buttom1{
+    width: 63vw;
+    height: auto;
+    margin-top: 0vw;
+    margin-bottom: 3vw;
+  }
+  #mission_choose_buttom2{
+    width: 63vw;
+    height: auto;
+    margin-top: 0vw;
+    margin-bottom: 3vw;
+  }

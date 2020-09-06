@@ -1,0 +1,150 @@
+body,html{
+    height: 100%;
+    margin: 0;
+  }
+  #back{
+    background-image:url('pic/choosepage/choose_page_background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100%;
+    text-align: center;
+  }
+  #top_line{
+    background-image: url('pic/index_line.png');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 14vw;
+    margin-top: -14vw;
+  }
+
+  #google_map{
+    /* background-image: url('pic/index_line.png'); */
+    /* background-color: #000000; */
+    /* background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    width: 100%;
+    height: 86.5vh;
+    display:none;
+    /* z-index: 3; */
+  }
+  
+/*story+mission+friend*/
+  #story_background{
+    background-color: #71aa63;
+    width: 100vw;
+    height: 120vw;
+    position: fixed;
+    bottom: -120vw;
+  }
+  #story_back_buttom {
+    background-image: url(pic/delete_buttom.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 5%;
+    height: 5vw;
+    left: 5vw;
+    top: 4vw;
+    position: relative;
+    z-index: 2;
+  }
+/*story+mission*/
+  #story_anping_buttom{
+    background-image: url(pic/AnPingline_buttom.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 26%;
+    height: 8vw;
+    right: 38.4vw;
+    top: 0;
+    position: absolute;
+  }
+  #story_anping_buttom_enter{
+    background-image: url(pic/AnPingline_buttom_enter.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 26%;
+    height: 8vw;
+    right: 38.4vw;
+    top: 0;
+    position: absolute;
+  }
+  #story_chihkan_buttom{
+    background-image: url(pic/Chihkan_line_buttom.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 26%;
+    height: 8vw;
+    right: 16.8vw;
+    top: 0;
+    position: absolute;
+  }
+  #story_chihkan_buttom_enter{
+    background-image: url(pic/Chihkan_line_buttom_enter.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 26%;
+    height: 8vw;
+    right: 16.8vw;
+    top: 0;
+    position: absolute;
+  }
+  #story_confucius_buttom {
+    background-image: url(pic/Confuciusline_buttom.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 21vw;
+    height: 8vw;
+    right: 0vw;
+    top: 0;
+    position: absolute;
+  }
+  #story_confucius_buttom_enter{
+    background-image: url(pic/Confuciusline_buttom_enter.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 21vw;
+    height: 8vw;
+    right: 0vw;
+    top: 0;
+    position: absolute;
+  }
+
+
+  #distance{
+    width: 34%;
+    height: 17vw;
+    margin: auto;
+    text-align: center;
+    position: fixed;
+    bottom: 11vw;
+    left: 33%;
+    display:none;
+  }
+  #bottom_line{
+    background-image: url('pic/option_line.png');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 12vw;
+    text-align: center;
+    position: fixed;
+    bottom: -12vw;
+  }
+  .bottom{
+    width: 13vw;
+    height: auto;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }

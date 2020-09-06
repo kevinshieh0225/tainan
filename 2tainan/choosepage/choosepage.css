@@ -1,0 +1,75 @@
+#back_choose{
+  background-image:url('./pic/choosepage/choose_page_background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:100%;
+  text-align: center;
+  overflow: hidden;
+}
+.choosepage{
+  display: none;
+}
+#dot_space{
+  width: 25%;
+  height: 6vw;
+  margin: auto;
+  margin-top: 2vw;
+  text-align: center;
+  background-image: url('./pic/LINE_CHOOSE_DOT.png');
+  background-size: cover;
+  position: relative;
+}
+#space{
+  width: 360vw;
+  height: 66vw;
+  margin: auto;
+  margin-top: 5vw;
+  text-align: center;
+  position: relative;
+  margin-top: 5vw;
+  margin-bottom: 10vw;
+}
+#dot{
+  width: 2.5vw;
+  top: 19.5vw;
+  left: 42vw;
+  position: absolute;
+}
+.choosepage_mark{
+  width: 22vw;
+  height: auto;
+  left: 39vw;
+  margin-bottom: 3vw;
+  display: block;
+  position: absolute;
+  bottom: 45vw;
+  display: none;
+}
+#AN_PING_INTRODUCTION{
+  width: 50vw;
+  height: auto;
+  left: 25vw;
+  display: block;
+  bottom: 41vw;
+  position: absolute;
+  display: none;
+}
+#Chihkan_introduction{
+  width: 40vw;
+  height: auto;
+  left: 30vw;
+  display: block;
+  bottom: 41vw;
+  position: absolute;
+  display: none;
+}
+#Confucius_Temple_TITLE_INTRO{
+  width: 42vw;
+  height: auto;
+  left: 29vw;
+  display: block;
+  bottom: 41vw;
+  position: absolute;
+  display: none;
+}

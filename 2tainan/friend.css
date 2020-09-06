@@ -1,0 +1,116 @@
+#friend_background{
+    background-color: #71aa63;
+    width: 100vw;
+    height: 120vw;
+    position: fixed;
+    bottom: -120vw;
+}
+#friend_back_buttom {
+    width: 5%;
+    height: auto;
+    left: 5vw;
+    top: 4vw;
+    position: absolute;
+    z-index: 2;
+}
+#friend_state_buttom{
+    background-image: url(pic/friend/aboutfriend_buttom.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 33%;
+    height: 8vw;
+    right: 21.5vw;
+    top: 0;
+    position: absolute;
+}
+#friend_state_buttom_enter{
+    background-image: url(pic/friend/aboutfriend_buttom_enter.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 33%;
+    height: 8vw;
+    right: 21.5vw;
+    top: 0;
+    position: absolute;
+}
+#friend_search_buttom {
+    background-image: url(pic/friend/addfriend_buttom.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 27vw;
+    height: 8vw;
+    right: 0vw;
+    top: 0;
+    position: absolute;
+}
+#friend_search_buttom_enter{
+    background-image: url(pic/friend/addfriend_buttom_enter.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 27vw;
+    height: 8vw;
+    right: 0vw;
+    top: 0;
+    position: absolute;
+}
+friend{
+    display:none;
+    width: 100vw;
+    height: 92%;
+    position: absolute;
+    bottom:0;
+    left:0;
+}
+#friend_search_frame{
+    width: 87vw;
+    height: 9vw;
+    background-image: url(pic/friend/friend_search_frame.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 8vw;
+}
+#search_input{
+    border: none;
+    width: 59%;
+    height: 5vw;
+    margin-top: 2vw;
+    margin-left: 7vw;
+    background-color: rgba(171,221,161,0);
+    font-size: 3.8vw;
+    color: white;
+    font-family: Microsoft JhengHei;
+    text-align: center
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #abe5a1;
+    opacity: 1; /* Firefox */
+    float: center;
+    font-family: Microsoft JhengHei;
+}
+#friend_search_icon{
+    width: 5vw;
+    height: auto;
+    margin-top: 2vw;
+    margin-right: 4vw;
+    float: right;
+}
+.friend_browse_picture{
+    width: 20vw;
+    height: 20vw;
+    margin-left: 6vw;
+    margin-right: 0vw;
+    margin-top: 4vw;
+    margin-bottom: 0vw;
+    float: left;
+}
+.friend_intro_frame{
+    width: 68vw;
+    height: 20vw;
+    background-color: #538445;
+    margin-left: 0vw;
+    margin-right: 6vw;
+    margin-top: 4vw;
+    margin-bottom: 0vw;
+    float: left;
+}

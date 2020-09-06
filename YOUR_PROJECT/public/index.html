@@ -1,0 +1,40 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="main.js"></script>
+    <title>GET/POST/AJAX練習</title>
+  </head>
+  <body>
+    <h1>GET/POST練習</h1>
+    <form action="/get_data" method="get">
+      first name: <input name="fname" type="text"><br>
+      last name: <input name="lname" type="text"><br>
+      <button type="submit">submit via get</button><br>
+    </form>
+    <br>
+    <form action="/post_data" method="post">
+      first name: <input name="fname" type="text"><br>
+      last name: <input name="lname" type="text"><br>
+      <button type="submit">submit via post</button><br>
+    </form>
+    <br>
+    <h1>AJAX用戶登記</h1>
+    <form id='ajax_apply'>
+      Name: <input name="name" type="text"><br>
+      Student ID: <input name="id" type="text"><br>
+      <button id='ajax_btn1'>submit via ajax</button>
+      <h1 id="ajax_content1"></h1>
+    </form>
+    <br>
+    <h1>AJAX用戶查詢</h1>
+    <form id='ajax_search'>
+      Student ID: <br>
+      <input name="id1" type="text"><br>
+      <input name="id2" type="text"><br>
+      <button id='ajax_btn2'>submit via ajax</button>
+      <h1 id="ajax_content2"></h1>
+    </form>
+  
+  </body>
+</html>
